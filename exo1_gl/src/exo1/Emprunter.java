@@ -9,4 +9,21 @@ public class Emprunter {
         this.client = c;
         this.livre = l ;
     } 
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public void setLivre(Livre livre) {
+        this.livre = livre;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public Livre getLivre() {
+        return livre;
+    }
+    
 }
